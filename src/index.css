@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.637) !important;
+}
+
+
+.card_style{
+    background-color: gray !important;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 9px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    color: white;
+}
+
+.card_style:hover{
+     background-color: white !important;
+     color: red !important;
+     transform: translateY(5px);
+}
+
+.add_btn_style{
+    background-color: black !important;
+    color: white !important;
+    z-index: 999;
+    
+}
+
+.eye_style:hover{
+   color: blue;
+}
+
+.student_name{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.main_data{
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.add_btn_style{
+    position: fixed;
+    bottom: 10px;
+    right: 40px;
+}
+
+.student_data_style{
+    background-color: gray;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 50px !important;
+    width: 50% !important;
+    cursor: pointer;
+    color: white;
+    transition: all 0.3s linear;
+}
+
+.student_data_style:hover{
+    background-color: white;
+    color: black;
+    transform: translateY(4px);
+}
+
+.list_student{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.aside{
+    height: 100vh;
+    background-color: black !important;
+}
+
+.nav_list_style{
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: white;
+    
+}
+
+
+hr{
+    color: white;
+     
+}
+.footer_data{
+    display: flex;
+    justify-content: space-between !important;
+}
+
+
+ 
+
